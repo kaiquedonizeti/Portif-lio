@@ -35,6 +35,10 @@ header > .icone{
 .apresentacao > h1{
     font-size: 200px;
     font-family: Caly;
+    text-align: center;
+}
+.apresentacao > p{
+    text-align: center;
 }
 .projetos{
     height: 350px;

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css bootstrap/bootstrap.min.css">
+    <script src="javascript/bootstrap.bundle.min.js"></script>
     <title>Meu Portifólio</title>
 </head>
 <body>
@@ -14,8 +15,8 @@
         </div>
 
         <div class="redeSocial">
-            <img id="icon" src="img/linkedin.png" alt="">
-            <img id="icon" src="img/github.png" alt="">
+            <a href="https://linkedin.com/in/kaique-donizeti-da-silva" target="_blank"><img id="icon" src="img/linkedin.png" alt=""></a>
+            <a href="https://github.com/kaiquedonizeti" target="_blank"><img id="icon" src="img/github.png" alt=""></a>
         </div>
     </header>
 
@@ -27,21 +28,46 @@
     <div class="projetos">
         <h1>Meus Projetos</h1>
         
-        <div class="container">
-            <div class="box">
-                <img src="" alt="">
-                <a href=""></a>
+    <div id="carrossel" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1" aria-current="2"></button>
+            <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2" aria-current="3"></button>
+            <button type="button" data-bs-target="#carrossel" data-bs-slide-to="3" aria-current="4"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/agencia de viagens.png" alt="" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block text-dark-emphasis">
+                    <h5>Agência de viagens</h5>
+                    <p>Projeto feito com HTML e CSS que contém um formulário para cadastro</p>
+                </div>
             </div>
-        
-            <div class="box">
-                <img src="" alt="">
-                <a href=""></a>
+
+            <div class="carousel-item">
+                <img src="img/clinica medica.png" alt="" class="d-block w-100">
             </div>
-            <div class="box">
-                <img src="" alt="">
-                <a href=""></a>
+
+            <div class="carousel-item">
+                <img src="img/pouada secreta.png" alt="" class="d-block w-100">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/museu de jogos.png" alt="" class="d-block w-100">
             </div>
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     </div>
 </body>
 </html>

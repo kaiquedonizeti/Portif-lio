@@ -9,7 +9,11 @@ body{
     height: 100%;
 }
 #icon{
-    width: 50px;
+    width: 30px;
+}
+header > .icone > button{
+    border: none;
+    background-color: #ffffff00;
 }
 @font-face {
     font-family: Caly;
@@ -36,6 +40,7 @@ header > .icone{
     font-size: 200px;
     font-family: Caly;
     text-align: center;
+    color: #000;
 }
 .apresentacao > p{
     text-align: center;
@@ -49,6 +54,11 @@ header > .icone{
 }
 .projetos > h1{
     font-family: Caly;
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
+    color: #000;
+}
+.carousel-inner > .carousel-item > img{
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;
 }

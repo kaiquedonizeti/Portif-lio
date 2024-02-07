@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">   
     <link rel="stylesheet" href="css bootstrap/bootstrap.min.css">
     <script src="javascript/bootstrap.bundle.min.js"></script>
     <title>Meu Portifólio</title>
 </head>
 <body>
     <header>
-        <div class="icone">
-            <button><img id="icon" src="img/sol.png" alt=""></button>
+        <div>
+            <input type="checkbox" class="checkbox" id="chk">
+
+            <label class="label" for="chk">
+                <img class="fas fa-moon" src="img/lua.png">
+                <img class="fas fa-sun" src="img/sol.png">
+                <div class="ball"></div>
+            </label>
         </div>
 
         <div class="redeSocial">
@@ -28,7 +34,7 @@
     <div class="projetos">
         <h1>Meus Projetos</h1>
         
-    <div id="carrossel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carrossel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1" aria-current="2"></button>
@@ -65,5 +71,6 @@
         </button>
     </div>
     </div>
+    <script src="javascript/modark.js"></script>
 </body>
 </html>

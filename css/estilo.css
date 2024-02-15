@@ -94,3 +94,28 @@ header > .icone{
     border-radius: 10px;
     border: 1px solid #d3d3d3;
 }
+footer{
+    margin-top: 500px;
+    width: 100%;
+    text-align: right;
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+    .apresentacao{
+        width: 100%;
+    }
+    .apresentacao > h1{
+        font-size: 100px;
+           
+    }
+    .apresentacao > p{
+        width: 300px;
+        margin: auto;
+    }
+    .projetos{
+        width: 100%;
+    }
+    .projetos > #carrossel{
+        padding: 10px;
+    }
+}

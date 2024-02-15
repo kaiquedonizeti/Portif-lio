@@ -90,7 +90,7 @@ header > .icone{
     font-size: 80px;
     text-align: center;
 }
-.carousel-inner > .carousel-item > img{
+.carousel-inner > .carousel-item > a > img{
     border-radius: 10px;
     border: 1px solid #d3d3d3;
 }
@@ -98,6 +98,9 @@ footer{
     margin-top: 500px;
     width: 100%;
     text-align: right;
+}
+footer > p{
+    font-weight: 500;
 }
 
 @media (min-width: 320px) and (max-width: 425px){
@@ -118,4 +121,32 @@ footer{
     .projetos > #carrossel{
         padding: 10px;
     }
+    footer{
+       text-align: center;
+    }
+}
+@media (min-width: 768px){
+    .apresentacao{
+        width: 100%;
+
+    }
+    .apresentacao > h1{
+        font-size: 200px;
+
+    }
+    .apresentacao > p{
+        width: 400px;
+        margin: auto;
+        font-size: 20px;
+    }
+    .projetos{
+        width: 100%;
+    }
+    .projetos > #carrossel{
+        padding: 10px;
+    }
+    footer{
+        margin-top: 1000px;
+        text-align: center;
+     }
 }

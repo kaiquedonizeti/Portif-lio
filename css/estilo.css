@@ -65,10 +65,16 @@ header > .icone{
     padding: 10px;
 }
 .apresentacao{
-    margin-top: 60px;
     width: 500px;
     float: left;
     flex-wrap: wrap;
+}
+#img-persona{
+    border: 1px solid #d3d3d3;
+    width: 100px;
+    border-radius: 50px;
+    margin: auto;
+    display: block;
 }
 .apresentacao > h1{
     font-size: 200px;
@@ -83,7 +89,6 @@ header > .icone{
     width: 500px;
     float: right;
     flex-wrap: wrap;
-    margin-top: 60px;
 }
 .projetos > h1{
     font-family: Caly;
@@ -95,7 +100,7 @@ header > .icone{
     border: 1px solid #d3d3d3;
 }
 footer{
-    margin-top: 500px;
+    margin-top: 400px;
     width: 100%;
     text-align: right;
 }
@@ -106,6 +111,7 @@ footer > p{
 @media (min-width: 320px) and (max-width: 425px){
     .apresentacao{
         width: 100%;
+        margin-bottom: 40px;
     }
     .apresentacao > h1{
         font-size: 100px;
@@ -122,13 +128,13 @@ footer > p{
         padding: 10px;
     }
     footer{
-       text-align: center;
+        text-align: center;
     }
 }
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1024px){
     .apresentacao{
         width: 100%;
-
+        margin-bottom: 40px;
     }
     .apresentacao > h1{
         font-size: 200px;
